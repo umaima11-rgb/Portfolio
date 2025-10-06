@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Syeda Umaima Tamkeen | AI Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- ✅ FontAwesome CSS for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <!-- Navbar -->
+<nav>
+  <div class="logo">Syeda Umaima Tamkeen</div>
+  <ul class="nav-links">
+    <li><a href="#" data-section="hero">Home</a></li>
+
+    <!-- About dropdown -->
+    <li class="dropdown">
+      <button type="button" class="dropbtn" aria-expanded="false">About ▾</button>
+      <ul class="dropdown-content" role="menu">
+        <li><a href="#" data-section="about" role="menuitem">About Me</a></li>
+        <li><a href="#" data-section="education" role="menuitem">Education</a></li>
+      </ul>
+    </li>
+
+
+    <li><a href="#" data-section="projects">Projects</a></li>
+    <li><a href="#" data-section="experience">Experience</a></li>
+    <li><a href="#" data-section="research">Research</a></li>
+    <li><a href="#" data-section="certifications">Certifications</a></li>
+    <li><a href="#" data-section="skills">Skills</a></li>
+
+    <!-- Leadership dropdown -->
+    <li class="dropdown">
+      <button type="button" class="dropbtn" aria-expanded="false">Leadership ▾</button>
+      <ul class="dropdown-content" role="menu">
+        <li><a href="#" data-section="volunteer" role="menuitem">Leader Roles</a></li>
+        <li><a href="#" data-section="content" role="menuitem">Community Builder</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#" data-section="contact">Contact</a></li>
+    <li><a href="https://drive.google.com/file/d/1tqe2IybOBDv7mOCnW2exW5v-5o_TqEI7/view?usp=sharing" class="btn" download>Resume</a></li>
+  </ul>
+</nav>
+
+
+  <!-- Main (tab sections) -->
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="tab-section active">
+      <div class="content hero-content">
+        <h1>Hi, I'm <span>Syeda Umaima Tamkeen</span></h1>
+        <h4 class="subtitle">AI Engineer | Community Builder | Problem Solver</h4>
+        <p class="lead"><h4>I turn data into intelligent systems that empower people and create impact.</h4></p>
+        <div class="hero-buttons">
+          <a href="#" data-section="projects" class="btn">View Projects</a>
+          <a href="https://drive.google.com/file/d/1tqe2IybOBDv7mOCnW2exW5v-5o_TqEI7/view?usp=sharing" class="btn" download> Resume </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="tab-section">
+      <div class="content about-section">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            I’m <strong>Syeda Umaima Tamkeen</strong>, an Artificial Intelligence Engineer
+            specializing in Machine Learning, NLP, and Computer Vision. I build intelligent systems
+            and lead initiatives that combine innovation with real-world impact.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="umaima.jpeg" alt="Syeda Umaima Tamkeen" />
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="tab-section">
+  <div class="content">
+    <h2>Education</h2>
+    <div class="grid">
+      
+      <!-- University -->
+      <div class="card">
+        <img src="dawood.png" alt="DUET University" class="project-img">
+        <h3>Bachelor of Science in Artificial Intelligence</h3>
+        <p><strong>Dawood University of Engineering and Technology (DUET)</strong></p>
+        <p>2021 – 2025</p>
+        
+      </div>
+
+      <!-- College -->
+      <div class="card">
+        <img src="college.png" alt="Army Public College" class="project-img">
+        <h3>Intermediate (Pre-Engineering)</h3>
+        <p><strong>Army Public College, Karachi, Pakistan</strong></p>
+        <p>2019 – 2021</p>
+      </div>
+
+      <!-- School -->
+      <div class="card">
+        <img src="school.png" alt="St. Patrick’s Girls High School" class="project-img">
+        <h3>Matriculation (Science)</h3>
+        <p><strong>St. Patrick’s Girls High School, Karachi, Pakistan</strong></p>
+        <p>2017 – 2019</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="tab-section">
+      <div class="content">
+        <h2>Projects</h2>
+        <div class="grid">
+          <!-- Project cards (from your doc) -->
+          <div class="card">
+            <img src="project.png" class="project-img" alt="Gesture-to-Voice Assistive Communication System" />
+            <h3>Gesture-to-Voice Assistive Communication System</h3>
+            <p>Built a vision-based system using MediaPipe and deep learning models (CNN, ResNet, Transformer) to translate hand gestures into voice, enabling communication for deaf and mute individuals.</p>
+            <p><strong>Tech Stack:</strong> Python, Computer Vision, Deep Learning, NLP, Assistive Tech</p>
+            <a href="https://github.com/syeda-umaima-tamkeen/Gesture-Vocalizer-Assistive-Communication" class="btn" target="_blank" rel="noopener"> View Project</a>
+          </div>
+
+          <div class="card">
+            <img src="market.png" class="project-img" alt="AI-Powered E-Commerce Marketplace (Hackfest 3.0 Project)" />
+            <h3>AI-Powered E-Commerce Marketplace (Hackfest 3.0 Project)</h3>
+            <p>Built an AI-powered e-commerce marketplace simulating platforms like Amazon/Daraz, where AI agents automate product listing, pricing, recommendations, and order management. Sellers upload product images, and AI generates descriptions, predicts prices, and manages buyer-seller interactions.</p>
+            <p><strong>Tech Stack:</strong> Python, Machine Learning, Deep Learning, NLP, Computer Vision, Gradio, E-Commerce</p>
+            <a href="https://drive.google.com/file/d/1HRWEH6D1ojEYkdfHrZqVkHateXt4T8wx/view?usp=sharing" class="btn" target="_blank" rel="noopener"> View Certificate</a>
+          </div>
+
+          <div class="card">
+            <img src="project1.jpeg" class="project-img" alt="AI Resume Parser (NLP-based)" />
+            <h3>AI Resume Parser (NLP-based)</h3>
+            <p>Implemented an NLP-powered resume parser using spaCy, regex, and Streamlit to extract structured information (skills, experience, education) for automated screening.</p>
+            <p><strong>Tech Stack:</strong> Python, NLP, Streamlit, spaCy, Regex</p>
+            <a href="https://github.com/syeda-umaima-tamkeen/AI-Resume-Parser-NLP" class="btn" target="_blank" rel="noopener"> View Project</a>
+          </div>
+
+          <div class="card">
+            <img src="project4.jpeg" class="project-img" alt="Traffic Sign Recognition (GTSRB Dataset)" />
+            <h3>Traffic Sign Recognition (GTSRB Dataset)</h3>
+            <p>Trained a CNN model on the GTSRB dataset to classify traffic signs with high accuracy, enabling applications in autonomous driving.</p>
+            <p><strong>Tech Stack:</strong> Python, CNN, Computer Vision, TensorFlow, GTSRB</p>
+            <a href="https://github.com/syeda-umaima-tamkeen/Traffic-Sign-Recognition-Deep-Learning" class="btn" target="_blank" rel="noopener"> View Project</a>
+          </div>
+
+          <div class="card">
+            <img src="project5.jpeg" class="project-img" alt="Handwritten Text Detection (OCR)" />
+            <h3>Handwritten Text Detection (OCR)</h3>
+            <p>Developed a deep learning-based OCR system to recognize and digitize handwritten text, improving accessibility and document processing.</p>
+            <p><strong>Tech Stack:</strong> Python, OCR, CNN, Deep Learning, Computer Vision</p>
+            <a href="https://github.com/syeda-umaima-tamkeen/Hand-Text-Detection-OCR" class="btn" target="_blank" rel="noopener"> View Project</a>
+          </div>
+
+          <div class="card">
+            <img src="project6.jpeg" class="project-img" alt="Movie Recommendation System" />
+            <h3>Movie Recommendation System</h3>
+            <p>Built a collaborative filtering-based movie recommendation engine using SVD and cosine similarity to suggest movies tailored to user preferences.</p>
+            <p><strong>Tech Stack:</strong> Python, Recommendation Systems, SVD, Collaborative Filtering</p>
+            <a href="https://github.com/syeda-umaima-tamkeen/Movie-Recommendation-Collaborative-Filtering" class="btn" target="_blank" rel="noopener"> View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="tab-section">
+      <div class="content">
+        <h2>Experience</h2>
+        <div class="grid">
+
+          <div class="card">
+            <h3>Teaching Associate – Aptech Learning (Columbia Information Technologies Pvt Ltd., Karachi)</h3>
+            <p class="muted"><em>Aug 2025 – Present</em></p>
+            <ul>
+              <li>Delivering lectures and hands-on training in Artificial Intelligence, Machine Learning, and Python programming.</li>
+              <li>Guiding students through academic projects, coding practices, and AI applications.</li>
+              <li>Assisting in curriculum design and conducting workshops/seminars to enhance student learning.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Artificial Intelligence Intern – Kangaroo Ventures</h3>
+            <p class="muted"><em>May – Jun 2025</em></p>
+            <ul>
+              <li>Applied ML techniques for real-world AI applications.</li>
+              <li>Contributed to model development and testing.</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1ZU1q5zXEst3ehyR5FjXCRilbMXQcMkqM/view?usp=drive_link" class="btn" target="_blank" rel="noopener"> View Certificate</a>
+          </div>
+
+          <div class="card">
+            <h3>Data Analysis Intern – AA Solutions (Virtual Internship)</h3>
+            <p class="muted"><em>Jul – Sep 2025</em></p>
+            <ul>
+              <li>Conducted data preprocessing, visualization & insights.</li>
+              <li>Completed tasks on real-world datasets in data analysis.</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1nHSCudLpHqjTq1kETKzzxqiqHMU4OgBh/view?usp=drive_link" class="btn" target="_blank" rel="noopener"> View Certificate</a>
+          </div>
+
+          <div class="card">
+            <h3>Machine Learning Intern – Digital Empowerment Network</h3>
+            <p class="muted"><em>Sep – Oct 2024</em></p>
+            <ul>
+              <li>Built models for house price prediction, churn analysis, and email classification.</li>
+              <li>Developed CNN-based image classifier with strong accuracy.</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1C3bj6PzsdNM3ShR7nXAWLrmyqGmEh7TB/view?usp=drive_link" class="btn" target="_blank" rel="noopener"> View Certificate</a>
+          </div>
+
+          <div class="card">
+            <h3>Machine Learning Intern – TechnoHacks EduTech Official</h3>
+            <p class="muted"><em>Mar – Apr 2024</em></p>
+            <ul>
+              <li>Implemented supervised ML algorithms on real datasets.</li>
+              <li>Built predictive models & performed feature engineering.</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1eqJ97FwS1Rv8_ReDVtTnBXFWCxV-jfFb/view?usp=drive_link" class="btn" target="_blank" rel="noopener"> View Certificate</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Research & Articles -->
+<section id="research" class="tab-section">
+  <div class="content">
+    <h2>Research & Articles</h2>
+    <div class="grid">
+      
+      <!-- Article 1 -->
+      <div class="card">
+        <!--<img src=".png" class="project-img" alt="Healthcare Fairness Study" />-->
+        <h3>Mitigating Bias in Healthcare Algorithms through Fairness Constraints</h3>
+        <p><em>Published in IJRAR, Vol. 12, Issue 3 (Sept 2025)</em></p>
+        <ul>
+          <li>Proposed a fairness framework validated on 156,847 patient records across multiple healthcare systems.</li>
+          <li>Reduced demographic disparities by 42% while maintaining clinical accuracy (AUC ~0.85).</li>
+        </ul>
+        <a href="https://drive.google.com/file/d/11IY0yFQWX_MwunnyWsrs1xbOV58-mdMm/view?usp=drive_link" target="_blank" class="btn"> Read Paper</a>
+      </div>
+
+      <!-- Article 2 -->
+      <div class="card">
+        <!--<img src=".png" class="project-img" alt="Gesture-to-Voice Thesis" />-->
+        <h3>Gesture-to-Voice Assistive Communication System</h3>
+        <p><em>Final Year Thesis, 2025</em></p>
+        <ul>
+          <li>Developed an AI-powered system translating hand gestures into text and speech.</li>
+          <li>Used MediaPipe, CNN, Random Forest & Transformers; deployed with Streamlit + pyttsx3.</li>
+        </ul>
+        <a href="https://drive.google.com/file/d/1s-rFxWXZlDdX0q42sY25ypjkSZAkE29s/view?usp=drive_link" target="_blank" class="btn"> Thesis Report</a>
+      </div>
+
+      <!-- Article 3 -->
+      <div class="card">
+        <!--<img src=".png" class="project-img" alt="AI and Future of Work" />-->
+        <h3>AI and the Future of Work: Replacement or Reinvention?</h3>
+        <p><em>Article – Medium, 2024</em></p>
+        <ul>
+          <li>Explores how AI is reshaping the workforce — not just replacing jobs but creating new opportunities.</li>
+          <li>Advocates for human-AI collaboration as the future of sustainable innovation.</li>
+        </ul>
+        <a href="https://medium.com/@syedaumaimatamkeen/ai-and-the-future-of-work-replacement-or-reinvention-901d11b5b90a" target="_blank" class="btn"> Read on Medium</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!--certifications-->
+    <section id="certifications" class="tab-section">
+  <div class="content">
+    <h2>Certifications</h2>
+    <div class="cert-grid">
+
+      <!-- Example: NED Academy -->
+      <div class="cert-card">
+        <img src="nedacademy.png" alt="NED Logo" class="cert-logo">
+        <div class="cert-info">
+          <h3>Certified Data Scientist</h3>
+          <p class="issuer">NED Academy – NED University of Engineering & Technology</p>
+          <p class="date">Issued: Jan 2025</p>
+          <p class="skills">Skills: AI, Data Science, ML Applications</p>
+          <a href="https://drive.google.com/file/d/1UneBwGeTTU8rXMgvtw1gQe6Ro-7kyvmE/view?usp=sharing" target="_blank" class="btn-sm">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- Example: DataCamp -->
+      <div class="cert-card">
+        <img src="DataCamp.png" alt="DataCamp Logo" class="cert-logo">
+        <div class="cert-info">
+          <h3>Associate Data Scientist</h3>
+          <p class="issuer">DataCamp – Associate Data Scientist</p>
+          <p class="date">Issued: Dec 2024</p>
+          <p class="skills">Skills: Data Analysis, Visualization, EDA, Model Evaluation</p>
+          <a href="https://drive.google.com/file/d/1JK-QIrN9SafEkdW9qf2VJk3RC3l-7geB/view?usp=sharing" target="_blank" class="btn-sm">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- Google: Data Models and Pipelines -->
+      <div class="cert-card">
+        <img src="google.png" alt="Google Logo" class="cert-logo">
+        <div class="cert-info">
+          <h3>Data Models and Pipelines</h3>
+          <p class="issuer">Google</p>
+          <p class="date">Issued: Nov 2024</p>
+          <p class="id">Credential ID: P8LKHSGVBZCS</p>
+          <a href="https://drive.google.com/file/d/1UneBwGeTTU8rXMgvtw1gQe6Ro-7kyvmE/view?usp=sharing" target="_blank" class="btn-sm">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- Google Business Intelligence -->
+      <div class="cert-card">
+        <img src="google.png" alt="Google Logo" class="cert-logo">
+        <div class="cert-info">
+          <h3>Google Business Intelligence</h3>
+          <p class="issuer">Google</p>
+          <p class="date">Issued: Nov 2024</p>
+          <p class="id">Credential ID: P8174LLR42GQ</p>
+          <a href="https://drive.google.com/file/d/138I-gds6J5Czbs261c4vCdf3peQCQqR7/view?usp=sharing" target="_blank" class="btn-sm">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- Google Project Management -->
+      <div class="cert-card">
+        <img src="google.png" alt="Google Logo" class="cert-logo">
+        <div class="cert-info">
+          <h3>Google Project Management</h3>
+          <p class="issuer">Google</p>
+          <p class="date">Issued: Nov 2024</p>
+          <p class="id">Credential ID: YUW5S5PSYUGR1</p>
+          <a href="https://drive.google.com/file/d/15wqRKpar_H-78rw3XO3R_CISw5k4e97x/view?usp=sharing" target="_blank" class="btn-sm">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- Crash Course on Python -->
+      <div class="cert-card">
+        <img src="google.png" alt="Google Logo" class="cert-logo">
+        <div class="cert-info">
+          <h3>Crash Course on Python</h3>
+          <p class="issuer">Google</p>
+          <p class="date">Issued: Oct 2024</p>
+          <p class="id">Credential ID: CWV4ZOKOQDD4</p>
+          <a href="https://drive.google.com/file/d/1GsVOAqkvIgRXStOnyeGZIzfuPr4JWw9J/view?usp=sharing" target="_blank" class="btn-sm">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- Git and GitHub -->
+      <div class="cert-card">
+        <img src="google.png" alt="Google Logo" class="cert-logo">
+        <div class="cert-info">
+          <h3>Git and GitHub</h3>
+          <p class="issuer">Google</p>
+          <p class="date">Issued: Oct 2024</p>
+          <p class="id">Credential ID: 9KEPW0DTGH4J</p>
+          <a href="https://drive.google.com/file/d/1GNxmsKwb29NyeQln7WzO4bkey1U-32qq/view?usp=sharing target="_blank" class="btn-sm">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- Google Advanced Data Analytics -->
+      <div class="cert-card">
+        <img src="google.png" alt="Google Logo" class="cert-logo">
+        <div class="cert-info">
+          <h3>Google Advanced Data Analytics</h3>
+          <p class="issuer">Google</p>
+          <p class="date">Issued: Oct 2024</p>
+          <p class="id">Credential ID: QVA9NNYSJW44</p>
+          <a href="https://drive.google.com/file/d/1bh5g2BOm6Ru9kA1GNEF5uur9cbxKpOlq/view?usp=sharing" target="_blank" class="btn-sm">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- Google AI Essentials -->
+      <div class="cert-card">
+        <img src="google.png" alt="Google Logo" class="cert-logo">
+        <div class="cert-info">
+          <h3>Google AI Essentials</h3>
+          <p class="issuer">Google</p>
+          <p class="date">Issued: Sep 2024</p>
+          <p class="id">Credential ID: R0CL1CM0UQL5</p>
+          <a href="https://drive.google.com/file/d/1bh5g2BOm6Ru9kA1GNEF5uur9cbxKpOlq/view?usp=sharing" target="_blank" class="btn-sm">View Certificate</a>
+        </div>
+      </div>
+
+            <!-- Machine Learning - Great Learning -->
+      <div class="cert-card">
+        <img src="greatlearning.png" alt="Great Learning Logo" class="cert-logo">
+        <div class="cert-info">
+          <h3>Machine Learning</h3>
+          <p class="issuer">Great Learning Support</p>
+          <p class="date">Issued: Aug 2024</p>
+          <p class="skills">Skills: Model Evaluation, Overfitting & Underfitting, Supervised & Unsupervised Learning</p>
+          <a href="https://drive.google.com/file/d/1onh8YP7ks1eaZn_ma0lOAHZqGJ03oU6S/view?usp=sharing" target="_blank" class="btn-sm">View Certificate</a>
+        </div>
+      </div>
+    </div> <!-- close cert-grid -->
+  </div>   <!-- close content -->
+</section> <!-- ✅ properly close certifications -->
+
+
+    <!-- Skills -->
+<section id="skills" class="tab-section">
+  <div class="content">
+    <h2>Skills</h2>
+    <div class="grid">
+
+      <!-- Programming -->
+      <div class="card">
+        <h3> Programming & Languages</h3>
+        <p> Python | R | SQL | Java | C++ </p>
+      </div>
+
+      <!-- AI -->
+      <div class="card">
+        <h3> Artificial Intelligence</h3>
+        <p> Machine Learning | Deep Learning | NLP | Computer Vision | Recommendation Systems | Reinforcement Learning </p>
+      </div>
+
+      <!-- Data Science -->
+      <div class="card">
+        <h3> Data Science & Analytics</h3>
+        <p> Data Preprocessing | Model Evaluation | TensorFlow | PyTorch | Scikit-learn | Hugging Face | OpenCV |LangChain / LLMs | Statistics </p>
+        <p> Matplotlib | Seaborn | Power BI | Tableau ]</p>
+      </div>
+
+      <!-- Tools -->
+      <div class="card">
+        <h3> Tools & Platforms</h3>
+        <p> Git & GitHub | Streamlit | Flask | Gradio | Jupyter | Google Colab | Excel | IoT | MATLAB ]</p>
+      </div>
+
+      <!-- Cloud -->
+      <div class="card">
+        <h3> Cloud & Deployment</h3>
+        <p> AWS (SageMaker, EC2, S3) | Google Cloud (Vertex AI, BigQuery) | Microsoft Azure AI </p>
+        <p> Docker  | Kubernetes | FastAPI </p>
+      </div>
+
+      <!-- MLOps -->
+      <div class="card">
+        <h3> MLOps & Big Data</h3>
+        <p> MLflow | DVC | Apache Spark | Hadoop | Kafka | Airflow </p>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="card">
+        <h3> Soft Skills</h3>
+        <p> Problem-Solving | Team Leadership | Teaching & Mentoring | Collaboration | Research Writing | Public Speaking </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Volunteer (Leadership Roles) -->
+<section id="volunteer" class="tab-section">
+  <div class="content">
+    <h2>Volunteer Work (Leadership Roles)</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>Founder & President – AI Society (2023–24)</h3>
+        <p>Established DUET’s first AI-focused student society. Organized workshops, hackathons, and collaborations to strengthen the AI student community.</p>
+        <a href="https://drive.google.com/file/d/16PDoLn97MAl7Xs1uiZfv3gwZiWePKWZ6/view?usp=sharing" class="btn"> View Certificate</a>
+        <a href="https://drive.google.com/file/d/1IhLyoR-18OFGlrmwQatyeRSpz8Y3AHh3/view?usp=sharing" class="btn"> View Recommendation Letter</a>
+      </div>
+
+      <div class="card">
+        <h3>Vice-Chair – IEEE Women in Engineering (2023–24)</h3>
+        <p>Coordinated technical workshops, leadership programs, and mentoring sessions promoting gender diversity in STEM.</p>
+        <a href="https://drive.google.com/file/d/1aKIRyl8rn_ehdX370DafveWAz_VVwtpV/view?usp=sharing" class="btn"> View Certificate</a>
+      </div>
+
+      <div class="card">
+        <h3>Ambassador – IEEE Day 2023</h3>
+        <p>Served as Ambassador of General Competitions at DUET IEEE Day, coordinating large-scale technical and general competitions.</p>
+        <a href="https://drive.google.com/file/d/1LL0OBHMiI0NM0jt8v-VygM1xAV2g9g4k/view?usp=sharing" class="btn"> View Certificate</a>
+      </div>
+
+      <div class="card">
+        <h3>Management Team – Semester Expo 2024</h3>
+        <p>Contributed to organizing the DUET Semester Expo 2024 under the Electronic Engineering Department.</p>
+        <a href="https://drive.google.com/file/d/1acsReDyjdzyTdFI7E0Gw5OCVFocnldYw/view?usp=sharing" class="btn"> View Certificate</a>
+      </div>
+
+      <div class="card">
+        <h3>Event Organizer – DUET Annual Mega Event (Feb 2024)</h3>
+        <p>Recognized for organizational excellence, leadership, and creativity in managing a 5-day mega event at DUET.</p>
+        <a href="https://drive.google.com/file/d/1RC271gdeXG006-6pzqt_JEyUYpn364D4/view?usp=sharing" class="btn"> View Certificate</a>
+      </div>
+
+      <div class="card">
+        <h3>Assistant Head Girl – St. Patrick’s High School (2018–19)</h3>
+        <p>Elected school leader; represented students, coordinated school events, and supported academic and extracurricular initiatives.</p>
+        <a href="https://drive.google.com/file/d/1OMECaJblrYzwi1GKctrtOT7YzNcQ5_1Y/view?usp=sharing" class="btn"> View Certificate</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Content & Community Contributions -->
+<section id="content" class="tab-section">
+  <div class="content">
+    <h2>Community Volunteering & Contributions</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>Markaz-e-Umeed (2023)</h3>
+        <p>Supported children with special needs in learning and recreational activities.</p>
+      </div>
+
+      <div class="card">
+        <h3>International Youth Conference (2024)</h3>
+        <p>Delegate in the 10th IYC, contributing to youth-led discussions on SDGs.</p>
+        <a href="https://drive.google.com/file/d/1E5EWGdvlCNcIldfmCCXBto-imdVHWqoI/view?usp=sharing" class="btn"> View Certificate</a>
+      </div>
+
+      <div class="card">
+        <h3>Alkhidmat Volunteering (2018–19)</h3>
+        <p>Participated in events including Independence Day with orphans and Volunteer Workshops.</p>
+        <a href="https://drive.google.com/file/d/1_Y38k3xxUyjXAGY5kJo1BfL3qApIk9ig/view?usp=sharing" class="btn"> View Certificate</a>
+      </div>
+
+      <div class="card">
+        <h3>MUN & Women’s Conferences (2016–18)</h3>
+        <p>Participation in PatsMUN (SPECPOL delegate) and multiple women empowerment conferences.</p>
+        <a href="https://drive.google.com/file/d/185bIjfLg0BZZYsFLcNFBd14Szvkdf2cM/view?usp=sharing" class="btn"> View Certificate</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="tab-section">
+      <div class="content">
+        <h2>Contact Me</h2>
+          <!--<form action="https://formspree.io/f/xdkwgdry" method="POST">-->
+          <form action="https://formspree.io/f/manpbeke" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+    <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <p>© 2025 Syeda Umaima Tamkeen | All Rights Reserved</p>
+      <p>“Let’s collaborate and build something impactful together.”</p>
+
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/syeda-umaima-tamkeen-83b219269" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/syeda-umaima-tamkeen?utm_source=chatgpt.com" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://wa.me/923368074237" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:syedaumaimatamkeen@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+  <!-- FontAwesome for icons -->
+  <script src="https://kit.fontawesome.com/4e5f1a1c3f.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
